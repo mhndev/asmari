@@ -1,0 +1,1494 @@
+[
+    {
+        "latin_description": "SCHENGEN ",
+        "max_coverage": 30000,
+        "id": 1,
+        "max_coverage_text": "30000 € Subject to conditions",
+        "zone_description": "SCHENGEN ",
+        "durations": [
+            {
+                "duration_end": 7,
+                "extra_description": "Single",
+                "id": 1
+            },
+            {
+                "duration_end": 15,
+                "extra_description": "Single",
+                "id": 2
+            },
+            {
+                "duration_end": 23,
+                "extra_description": "Single",
+                "id": 3
+            },
+            {
+                "duration_end": 31,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 4
+            },
+            {
+                "duration_end": 45,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 5
+            },
+            {
+                "duration_end": 62,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 6
+            },
+            {
+                "duration_end": 92,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 7
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 8
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 9
+            }
+        ],
+        "countries": [
+            {
+                "id": 5,
+                "latin_name": "Germany",
+                "farsi_name": "‏آلمان‏"
+            },
+            {
+                "id": 7,
+                "latin_name": "Austria",
+                "farsi_name": "‏اتريش‏"
+            },
+            {
+                "id": 14,
+                "latin_name": "Spain",
+                "farsi_name": "‏اسپانيا‏"
+            },
+            {
+                "id": 16,
+                "latin_name": "Estonian",
+                "farsi_name": "‏استونى‏"
+            },
+            {
+                "id": 17,
+                "latin_name": "Aslawaki",
+                "farsi_name": "‏اسلواكى‏"
+            },
+            {
+                "id": 26,
+                "latin_name": "Italy",
+                "farsi_name": "‏ايتاليا‏"
+            },
+            {
+                "id": 32,
+                "latin_name": "Belgium",
+                "farsi_name": "‏بلژيك‏"
+            },
+            {
+                "id": 50,
+                "latin_name": "Denmark",
+                "farsi_name": "‏دانمارك‏"
+            },
+            {
+                "id": 59,
+                "latin_name": "Sweden",
+                "farsi_name": "‏سوئد‏"
+            },
+            {
+                "id": 60,
+                "latin_name": "Switzerland",
+                "farsi_name": "‏سوئيس‏"
+            },
+            {
+                "id": 71,
+                "latin_name": "France",
+                "farsi_name": "‏فرانسه‏"
+            },
+            {
+                "id": 72,
+                "latin_name": "Finland",
+                "farsi_name": "‏فنلاند‏"
+            },
+            {
+                "id": 92,
+                "latin_name": "Poland",
+                "farsi_name": "‏لهستان‏"
+            },
+            {
+                "id": 93,
+                "latin_name": "Luxemburg",
+                "farsi_name": "‏لوگزامبورگ‏"
+            },
+            {
+                "id": 95,
+                "latin_name": "Lithuania",
+                "farsi_name": "‏ليتوانى‏"
+            },
+            {
+                "id": 97,
+                "latin_name": "Malta",
+                "farsi_name": "‏مالت‏"
+            },
+            {
+                "id": 101,
+                "latin_name": "Hungary",
+                "farsi_name": "‏مجارستان‏"
+            },
+            {
+                "id": 107,
+                "latin_name": "Netherlands",
+                "farsi_name": "‏هلند‏"
+            },
+            {
+                "id": 112,
+                "latin_name": "Greece",
+                "farsi_name": "‏يونان‏"
+            }
+        ]
+    },
+    {
+        "latin_description": "SCHENGEN GOLD",
+        "max_coverage": 50000,
+        "id": 2,
+        "max_coverage_text": "50000  € Subject to conditions",
+        "zone_description": "SCHENGEN GOLD",
+        "durations": [
+            {
+                "duration_end": 7,
+                "extra_description": "Single",
+                "id": 1
+            },
+            {
+                "duration_end": 15,
+                "extra_description": "Single",
+                "id": 2
+            },
+            {
+                "duration_end": 23,
+                "extra_description": "Single",
+                "id": 3
+            },
+            {
+                "duration_end": 31,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 4
+            },
+            {
+                "duration_end": 45,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 5
+            },
+            {
+                "duration_end": 62,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 6
+            },
+            {
+                "duration_end": 92,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 7
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 8
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 9
+            }
+        ],
+        "countries": []
+    },
+    {
+        "latin_description": "AL - HAJJ ",
+        "max_coverage": 10000,
+        "id": 3,
+        "max_coverage_text": "10000  € Subject to conditions",
+        "zone_description": "AL - HAJJ ",
+        "durations": [
+            {
+                "duration_end": 7,
+                "extra_description": "Single",
+                "id": 1
+            },
+            {
+                "duration_end": 15,
+                "extra_description": "Single",
+                "id": 2
+            },
+            {
+                "duration_end": 23,
+                "extra_description": "Single",
+                "id": 3
+            },
+            {
+                "duration_end": 31,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 4
+            },
+            {
+                "duration_end": 45,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 5
+            },
+            {
+                "duration_end": 62,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 6
+            },
+            {
+                "duration_end": 92,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 7
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 8
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 9
+            }
+        ],
+        "countries": []
+    },
+    {
+        "latin_description": "Middle East - Africa - Turkey",
+        "max_coverage": 10000,
+        "id": 4,
+        "max_coverage_text": "10000  € Subject to conditions",
+        "zone_description": "Middle East - Africa - Turkey",
+        "durations": [
+            {
+                "duration_end": 7,
+                "extra_description": "Single",
+                "id": 1
+            },
+            {
+                "duration_end": 15,
+                "extra_description": "Single",
+                "id": 2
+            },
+            {
+                "duration_end": 23,
+                "extra_description": "Single",
+                "id": 3
+            },
+            {
+                "duration_end": 31,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 4
+            },
+            {
+                "duration_end": 45,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 5
+            },
+            {
+                "duration_end": 62,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 6
+            },
+            {
+                "duration_end": 92,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 7
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 8
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 9
+            }
+        ],
+        "countries": []
+    },
+    {
+        "latin_description": "GCC  countries TRAVEL",
+        "max_coverage": 10000,
+        "id": 5,
+        "max_coverage_text": "10000 € Subject to conditions",
+        "zone_description": "GCC  countries TRAVEL",
+        "durations": [
+            {
+                "duration_end": 7,
+                "extra_description": "Single",
+                "id": 1
+            },
+            {
+                "duration_end": 15,
+                "extra_description": "Single",
+                "id": 2
+            },
+            {
+                "duration_end": 23,
+                "extra_description": "Single",
+                "id": 3
+            },
+            {
+                "duration_end": 31,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 4
+            },
+            {
+                "duration_end": 45,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 5
+            },
+            {
+                "duration_end": 62,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 6
+            },
+            {
+                "duration_end": 92,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 7
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 8
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 9
+            }
+        ],
+        "countries": [
+            {
+                "id": 28,
+                "latin_name": "Bahrain",
+                "farsi_name": "‏بحرين‏"
+            },
+            {
+                "id": 67,
+                "latin_name": "Iraq",
+                "farsi_name": "‏عراق‏"
+            },
+            {
+                "id": 68,
+                "latin_name": "Saudi Arabia",
+                "farsi_name": "‏عربستان سعودى‏"
+            },
+            {
+                "id": 69,
+                "latin_name": "Oman",
+                "farsi_name": "‏عمان‏"
+            },
+            {
+                "id": 77,
+                "latin_name": "Qatar",
+                "farsi_name": "قطر"
+            },
+            {
+                "id": 87,
+                "latin_name": "Kuwait",
+                "farsi_name": "‏كويت‏"
+            }
+        ]
+    },
+    {
+        "latin_description": "WORLDWIDE",
+        "max_coverage": 50000,
+        "id": 6,
+        "max_coverage_text": "50000  € Subject to conditions",
+        "zone_description": "WORLDWIDE",
+        "durations": [
+            {
+                "duration_end": 7,
+                "extra_description": "Single",
+                "id": 1
+            },
+            {
+                "duration_end": 15,
+                "extra_description": "Single",
+                "id": 2
+            },
+            {
+                "duration_end": 23,
+                "extra_description": "Single",
+                "id": 3
+            },
+            {
+                "duration_end": 31,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 4
+            },
+            {
+                "duration_end": 45,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 5
+            },
+            {
+                "duration_end": 62,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 6
+            },
+            {
+                "duration_end": 92,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 7
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 8
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 9
+            }
+        ],
+        "countries": [
+            {
+                "id": 6,
+                "latin_name": "America",
+                "farsi_name": "‏آمريكا‏"
+            },
+            {
+                "id": 55,
+                "latin_name": "Japan",
+                "farsi_name": "‏ژاپن‏"
+            },
+            {
+                "id": 79,
+                "latin_name": "Canada",
+                "farsi_name": "‏كانادا‏"
+            }
+        ]
+    },
+    {
+        "latin_description": "WORLDWIDE-Excluding USA\/Canada and Japan",
+        "max_coverage": 50000,
+        "id": 7,
+        "max_coverage_text": "50000  € Subject to conditions",
+        "zone_description": "WORLDWIDE-Excluding USA\/Canada and Japan",
+        "durations": [
+            {
+                "duration_end": 7,
+                "extra_description": "Single",
+                "id": 1
+            },
+            {
+                "duration_end": 15,
+                "extra_description": "Single",
+                "id": 2
+            },
+            {
+                "duration_end": 23,
+                "extra_description": "Single",
+                "id": 3
+            },
+            {
+                "duration_end": 31,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 4
+            },
+            {
+                "duration_end": 45,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 5
+            },
+            {
+                "duration_end": 62,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 6
+            },
+            {
+                "duration_end": 92,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 7
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 8
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 9
+            }
+        ],
+        "countries": [
+            {
+                "id": 1,
+                "latin_name": "Argentina",
+                "farsi_name": "‏آرژانتين‏"
+            },
+            {
+                "id": 3,
+                "latin_name": "Central africa",
+                "farsi_name": "‏آفريقاى مركزى‏"
+            },
+            {
+                "id": 4,
+                "latin_name": "Albania",
+                "farsi_name": "‏آلبانى‏"
+            },
+            {
+                "id": 10,
+                "latin_name": "Uruguay",
+                "farsi_name": "‏ارگوئه‏"
+            },
+            {
+                "id": 13,
+                "latin_name": "Uzbekistan",
+                "farsi_name": "‏ازبكستان‏"
+            },
+            {
+                "id": 15,
+                "latin_name": "Australia",
+                "farsi_name": "‏استراليا‏"
+            },
+            {
+                "id": 18,
+                "latin_name": "My honey",
+                "farsi_name": "‏اسلونى‏"
+            },
+            {
+                "id": 19,
+                "latin_name": "Afghanistan",
+                "farsi_name": "‏افغانستان‏"
+            },
+            {
+                "id": 20,
+                "latin_name": "Ecuador",
+                "farsi_name": "‏اكوادور‏"
+            },
+            {
+                "id": 23,
+                "latin_name": "Indonesian",
+                "farsi_name": "‏اندونزى‏"
+            },
+            {
+                "id": 24,
+                "latin_name": "England",
+                "farsi_name": "‏انگلستان‏"
+            },
+            {
+                "id": 25,
+                "latin_name": "Ukraine",
+                "farsi_name": "اوكراين"
+            },
+            {
+                "id": 27,
+                "latin_name": "Irland",
+                "farsi_name": "‏ايرلند‏"
+            },
+            {
+                "id": 30,
+                "latin_name": "Burma",
+                "farsi_name": "‏برمه‏"
+            },
+            {
+                "id": 31,
+                "latin_name": "Belarus",
+                "farsi_name": "‏بلاروس‏"
+            },
+            {
+                "id": 34,
+                "latin_name": "Bangladesh",
+                "farsi_name": "‏بنگلادش‏"
+            },
+            {
+                "id": 35,
+                "latin_name": "Bosnia Herzegovina",
+                "farsi_name": "‏بوسنى هرزگوين‏"
+            },
+            {
+                "id": 36,
+                "latin_name": "Bolivia",
+                "farsi_name": "بوليوي"
+            },
+            {
+                "id": 37,
+                "latin_name": "Paraguay",
+                "farsi_name": "‏پاراگوئه‏"
+            },
+            {
+                "id": 38,
+                "latin_name": "Pakistan",
+                "farsi_name": "‏پاكستان‏"
+            },
+            {
+                "id": 39,
+                "latin_name": "Panama",
+                "farsi_name": "‏پاناما‏"
+            },
+            {
+                "id": 40,
+                "latin_name": "Portugal",
+                "farsi_name": "‏پرتغال‏"
+            },
+            {
+                "id": 41,
+                "latin_name": "Peru",
+                "farsi_name": "پرو"
+            },
+            {
+                "id": 42,
+                "latin_name": "Tajikistan",
+                "farsi_name": "‏تاجيكستان‏"
+            },
+            {
+                "id": 45,
+                "latin_name": "Turkmenistan",
+                "farsi_name": "‏تركمنستان‏"
+            },
+            {
+                "id": 52,
+                "latin_name": "Romania",
+                "farsi_name": "‏رومانى‏"
+            },
+            {
+                "id": 53,
+                "latin_name": "New Zealand",
+                "farsi_name": "‏زلاندنو‏"
+            },
+            {
+                "id": 64,
+                "latin_name": "Sierra Leone",
+                "farsi_name": "‏سيرالئون‏"
+            },
+            {
+                "id": 65,
+                "latin_name": "Chile",
+                "farsi_name": "‏شيلى‏"
+            },
+            {
+                "id": 73,
+                "latin_name": "Philippines",
+                "farsi_name": "‏فيليپين‏"
+            },
+            {
+                "id": 75,
+                "latin_name": "Kyrgyzstan",
+                "farsi_name": "‏قرقيزستان‏"
+            },
+            {
+                "id": 76,
+                "latin_name": "Kazakhstan",
+                "farsi_name": "‏قزاقستان‏"
+            },
+            {
+                "id": 80,
+                "latin_name": "South Korea",
+                "farsi_name": "‏كره جنوبى‏"
+            },
+            {
+                "id": 81,
+                "latin_name": "North Korea",
+                "farsi_name": "‏كره شمالى‏"
+            },
+            {
+                "id": 82,
+                "latin_name": "Croatia",
+                "farsi_name": "‏كرواسى‏"
+            },
+            {
+                "id": 83,
+                "latin_name": "Colombia",
+                "farsi_name": "‏كلمبيا‏"
+            },
+            {
+                "id": 84,
+                "latin_name": "Congo",
+                "farsi_name": "كنگو"
+            },
+            {
+                "id": 86,
+                "latin_name": "Cuba",
+                "farsi_name": "‏كوبا‏"
+            },
+            {
+                "id": 89,
+                "latin_name": "Guinea",
+                "farsi_name": "گينه"
+            },
+            {
+                "id": 90,
+                "latin_name": "Laos",
+                "farsi_name": "لائوس"
+            },
+            {
+                "id": 96,
+                "latin_name": "Madagascar",
+                "farsi_name": "ماداگاسكار"
+            },
+            {
+                "id": 100,
+                "latin_name": "Mali",
+                "farsi_name": "‏مالى‏"
+            },
+            {
+                "id": 104,
+                "latin_name": "Mexico",
+                "farsi_name": "‏مكزيك‏"
+            },
+            {
+                "id": 105,
+                "latin_name": "Norway",
+                "farsi_name": "‏نروژ‏"
+            },
+            {
+                "id": 106,
+                "latin_name": "Nigeria",
+                "farsi_name": "‏نيجريه‏"
+            },
+            {
+                "id": 109,
+                "latin_name": "Venezuela",
+                "farsi_name": "‏ونزوئلا‏"
+            },
+            {
+                "id": 110,
+                "latin_name": "Vietnam",
+                "farsi_name": "‏ويتنام‏"
+            },
+            {
+                "id": 113,
+                "latin_name": "Montenegro",
+                "farsi_name": "مونته نگرو‏"
+            }
+        ]
+    },
+    {
+        "latin_description": "STUDENT - SCHENGEN",
+        "max_coverage": 30000,
+        "id": 9,
+        "max_coverage_text": "30000 € Subject to conditions",
+        "zone_description": "STUDENT - SCHENGEN",
+        "durations": [
+            {
+                "duration_end": 92,
+                "extra_description": "Single",
+                "id": 40
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Single",
+                "id": 20
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Single",
+                "id": 21
+            }
+        ],
+        "countries": []
+    },
+    {
+        "latin_description": "STUDENTS - WORDWIDE",
+        "max_coverage": 50000,
+        "id": 10,
+        "max_coverage_text": "50000 € Subject to conditions",
+        "zone_description": "STUDENTS - WORDWIDE",
+        "durations": [
+            {
+                "duration_end": 92,
+                "extra_description": "Single",
+                "id": 40
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Single",
+                "id": 20
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Single",
+                "id": 21
+            }
+        ],
+        "countries": []
+    },
+    {
+        "latin_description": "Turkey - Azerbaijan - Armenia - Dubai - Georgia - North Cyprus",
+        "max_coverage": 10000,
+        "id": 13,
+        "max_coverage_text": "10000 € Subject to conditions",
+        "zone_description": "Turkey - Azerbaijan - Armenia - Dubai - Georgia - North Cyprus",
+        "durations": [
+            {
+                "duration_end": 7,
+                "extra_description": "Single",
+                "id": 15
+            },
+            {
+                "duration_end": 15,
+                "extra_description": "Single",
+                "id": 16
+            }
+        ],
+        "countries": []
+    },
+    {
+        "latin_description": "WORLDWIDE - VIP",
+        "max_coverage": 50000,
+        "id": 15,
+        "max_coverage_text": "50000  € Subject to conditions",
+        "zone_description": "WORLDWIDE - VIP",
+        "durations": [
+            {
+                "duration_end": 7,
+                "extra_description": "Single",
+                "id": 1
+            },
+            {
+                "duration_end": 15,
+                "extra_description": "Single",
+                "id": 2
+            },
+            {
+                "duration_end": 23,
+                "extra_description": "Single",
+                "id": 3
+            },
+            {
+                "duration_end": 31,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 4
+            },
+            {
+                "duration_end": 45,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 5
+            },
+            {
+                "duration_end": 62,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 6
+            },
+            {
+                "duration_end": 92,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 7
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 8
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 9
+            }
+        ],
+        "countries": []
+    },
+    {
+        "latin_description": "WORLDWIDE-Excluding USA\/Canada and Japan - VIP",
+        "max_coverage": 50000,
+        "id": 16,
+        "max_coverage_text": "50000  € Subject to conditions",
+        "zone_description": "WORLDWIDE-Excluding USA\/Canada and Japan - VIP",
+        "durations": [
+            {
+                "duration_end": 7,
+                "extra_description": "Single",
+                "id": 1
+            },
+            {
+                "duration_end": 15,
+                "extra_description": "Single",
+                "id": 2
+            },
+            {
+                "duration_end": 23,
+                "extra_description": "Single",
+                "id": 3
+            },
+            {
+                "duration_end": 31,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 4
+            },
+            {
+                "duration_end": 45,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 5
+            },
+            {
+                "duration_end": 62,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 6
+            },
+            {
+                "duration_end": 92,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 7
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 8
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 9
+            }
+        ],
+        "countries": []
+    },
+    {
+        "latin_description": "SCHENGEN - VIP",
+        "max_coverage": 30000,
+        "id": 17,
+        "max_coverage_text": "30000 € Subject to conditions",
+        "zone_description": "SCHENGEN - VIP",
+        "durations": [
+            {
+                "duration_end": 7,
+                "extra_description": "Single",
+                "id": 1
+            },
+            {
+                "duration_end": 15,
+                "extra_description": "Single",
+                "id": 2
+            },
+            {
+                "duration_end": 23,
+                "extra_description": "Single",
+                "id": 3
+            },
+            {
+                "duration_end": 31,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 4
+            },
+            {
+                "duration_end": 45,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 5
+            },
+            {
+                "duration_end": 62,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 6
+            },
+            {
+                "duration_end": 92,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 7
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 8
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 9
+            }
+        ],
+        "countries": []
+    },
+    {
+        "latin_description": "SCHENGEN GOLD - VIP",
+        "max_coverage": 50000,
+        "id": 18,
+        "max_coverage_text": "50000  € Subject to conditions",
+        "zone_description": "SCHENGEN GOLD - VIP",
+        "durations": [
+            {
+                "duration_end": 7,
+                "extra_description": "Single",
+                "id": 1
+            },
+            {
+                "duration_end": 15,
+                "extra_description": "Single",
+                "id": 2
+            },
+            {
+                "duration_end": 23,
+                "extra_description": "Single",
+                "id": 3
+            },
+            {
+                "duration_end": 31,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 4
+            },
+            {
+                "duration_end": 45,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 5
+            },
+            {
+                "duration_end": 62,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 6
+            },
+            {
+                "duration_end": 92,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 7
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 8
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 9
+            }
+        ],
+        "countries": []
+    },
+    {
+        "latin_description": "Middle East - Africa - Turkey - VIP",
+        "max_coverage": 10000,
+        "id": 19,
+        "max_coverage_text": "10000  € Subject to conditions",
+        "zone_description": "Middle East - Africa - Turkey - VIP",
+        "durations": [
+            {
+                "duration_end": 7,
+                "extra_description": "Single",
+                "id": 1
+            },
+            {
+                "duration_end": 15,
+                "extra_description": "Single",
+                "id": 2
+            },
+            {
+                "duration_end": 23,
+                "extra_description": "Single",
+                "id": 3
+            },
+            {
+                "duration_end": 31,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 4
+            },
+            {
+                "duration_end": 45,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 5
+            },
+            {
+                "duration_end": 62,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 6
+            },
+            {
+                "duration_end": 92,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 7
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 8
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 9
+            }
+        ],
+        "countries": [
+            {
+                "id": 8,
+                "latin_name": "Ethiopia",
+                "farsi_name": "‏اتيوپى‏"
+            },
+            {
+                "id": 9,
+                "latin_name": "Jordan",
+                "farsi_name": "‏اردن‏"
+            },
+            {
+                "id": 12,
+                "latin_name": "Eritrea",
+                "farsi_name": "‏اريتره‏"
+            },
+            {
+                "id": 21,
+                "latin_name": "Algeria",
+                "farsi_name": "‏الجزاير‏"
+            },
+            {
+                "id": 43,
+                "latin_name": "Tanzania",
+                "farsi_name": "تانزانيا"
+            },
+            {
+                "id": 47,
+                "latin_name": "Tunisia",
+                "farsi_name": "‏تونس‏"
+            },
+            {
+                "id": 54,
+                "latin_name": "Zimbabwe",
+                "farsi_name": "‏زيمباوه‏"
+            },
+            {
+                "id": 58,
+                "latin_name": "Senegal",
+                "farsi_name": "سنگال"
+            },
+            {
+                "id": 61,
+                "latin_name": "Sudan",
+                "farsi_name": "‏سودان‏"
+            },
+            {
+                "id": 62,
+                "latin_name": "Syria",
+                "farsi_name": "‏سوريه‏"
+            },
+            {
+                "id": 63,
+                "latin_name": "Somalie",
+                "farsi_name": "‏سومالى‏"
+            },
+            {
+                "id": 70,
+                "latin_name": "Ghana",
+                "farsi_name": "غنا"
+            },
+            {
+                "id": 78,
+                "latin_name": "Cambodia",
+                "farsi_name": "‏كامبوج‏"
+            },
+            {
+                "id": 85,
+                "latin_name": "Kenya",
+                "farsi_name": "‏كنيا‏"
+            },
+            {
+                "id": 91,
+                "latin_name": "Lebanon",
+                "farsi_name": "‏لبنان‏"
+            },
+            {
+                "id": 94,
+                "latin_name": "Libya",
+                "farsi_name": "‏ليبى‏"
+            },
+            {
+                "id": 103,
+                "latin_name": "Egypt",
+                "farsi_name": "‏مصر‏"
+            },
+            {
+                "id": 111,
+                "latin_name": "Yemen",
+                "farsi_name": "‏يمن‏"
+            }
+        ]
+    },
+    {
+        "latin_description": "GCC  countries TRAVEL - VIP",
+        "max_coverage": 10000,
+        "id": 20,
+        "max_coverage_text": "10000  € Subject to conditions",
+        "zone_description": "GCC  countries TRAVEL - VIP",
+        "durations": [
+            {
+                "duration_end": 7,
+                "extra_description": "Single",
+                "id": 1
+            },
+            {
+                "duration_end": 15,
+                "extra_description": "Single",
+                "id": 2
+            },
+            {
+                "duration_end": 23,
+                "extra_description": "Single",
+                "id": 3
+            },
+            {
+                "duration_end": 31,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 4
+            },
+            {
+                "duration_end": 45,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 5
+            },
+            {
+                "duration_end": 62,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 6
+            },
+            {
+                "duration_end": 92,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 7
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 8
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id": 9
+            }
+        ],
+        "countries": []
+    },
+    {
+        "latin_description": "Turkey,Emirates,Thailand,Malaysia,Singapore,Indonesia,China,Vietnam,Sri Lanka,Maldives,Azerbaijan,South Africa,Cyprus,Georgia,Armenia,India",
+        "max_coverage": 10000,
+        "id": 21,
+        "max_coverage_text": "10000  € Subject to conditions",
+        "zone_description": "Turkey,Emirates,Thailand,Malaysia,Singapore,Indonesia,China,Vietnam,Sri Lanka,Maldives,Azerbaijan,South Africa,Cyprus,Georgia,Armenia,India",
+        "durations": [
+            {
+                "duration_end": 7,
+                "extra_description": "Single",
+                "id": 22
+            },
+            {
+                "duration_end": 15,
+                "extra_description": "Single",
+                "id": 23
+            },
+            {
+                "duration_end": 23,
+                "extra_description": "Single",
+                "id": 24
+            },
+            {
+                "duration_end": 31,
+                "extra_description": "Single",
+                "id": 25
+            },
+            {
+                "duration_end": 45,
+                "extra_description": "Single",
+                "id": 26
+            },
+            {
+                "duration_end": 62,
+                "extra_description": "Single",
+                "id": 27
+            },
+            {
+                "duration_end": 92,
+                "extra_description": "Single",
+                "id": 28
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Single",
+                "id": 29
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Single",
+                "id": 30
+            }
+        ],
+        "countries": [
+            {
+                "id": 2,
+                "latin_name": "Southern africa",
+                "farsi_name": "‏آفريقاى جنوبى‏"
+            },
+            {
+                "id": 11,
+                "latin_name": "Armenia",
+                "farsi_name": "‏ارمنستان‏"
+            },
+            {
+                "id": 22,
+                "latin_name": "United Arab Emirates",
+                "farsi_name": "‏امارات متحده عربى‏"
+            },
+            {
+                "id": 44,
+                "latin_name": "Thailand",
+                "farsi_name": "‏تايلند‏"
+            },
+            {
+                "id": 46,
+                "latin_name": "Turkey",
+                "farsi_name": "‏تركيه‏"
+            },
+            {
+                "id": 48,
+                "latin_name": "Republic of Azerbaijan",
+                "farsi_name": "‏جمهورى آذربايجان‏"
+            },
+            {
+                "id": 49,
+                "latin_name": "China",
+                "farsi_name": "‏چين‏"
+            },
+            {
+                "id": 56,
+                "latin_name": "Sri Lanka",
+                "farsi_name": "‏سريلانكا‏"
+            },
+            {
+                "id": 57,
+                "latin_name": "Singapore",
+                "farsi_name": "‏سنگاپور‏"
+            },
+            {
+                "id": 74,
+                "latin_name": "Cyprus",
+                "farsi_name": "‏قبرس‏"
+            },
+            {
+                "id": 88,
+                "latin_name": "Georgia",
+                "farsi_name": "‏گرجستان‏"
+            },
+            {
+                "id": 98,
+                "latin_name": "Maldives",
+                "farsi_name": "مالدیو"
+            },
+            {
+                "id": 99,
+                "latin_name": "Malaysia",
+                "farsi_name": "‏مالزى‏"
+            },
+            {
+                "id": 108,
+                "latin_name": "India",
+                "farsi_name": "‏هندوستان‏"
+            }
+        ]
+    },
+    {
+        "latin_description": "Russia,Serbia,Morocco,Bulgaria,Brazil",
+        "max_coverage": 10000,
+        "id": 22,
+        "max_coverage_text": "10000  € Subject to conditions",
+        "zone_description": "Russia,Serbia,Morocco,Bulgaria,Brazil",
+        "durations": [
+            {
+                "duration_end": 15,
+                "extra_description": "Single",
+                "id": 32
+            },
+            {
+                "duration_end": 7,
+                "extra_description": "Single",
+                "id": 31
+            },
+            {
+                "duration_end": 23,
+                "extra_description": "Single",
+                "id": 33
+            },
+            {
+                "duration_end": 31,
+                "extra_description": "Single",
+                "id": 34
+            },
+            {
+                "duration_end": 45,
+                "extra_description": "Single",
+                "id": 35
+            },
+            {
+                "duration_end": 62,
+                "extra_description": "Single",
+                "id": 36
+            },
+            {
+                "duration_end": 92,
+                "extra_description": "Single",
+                "id": 37
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Single",
+                "id": 38
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Single",
+                "id": 39
+            }
+        ],
+        "countries": [
+            {
+                "id": 29,
+                "latin_name": "Brazil",
+                "farsi_name": "‏برزيل‏"
+            },
+            {
+                "id": 33,
+                "latin_name": "Bulgaria",
+                "farsi_name": "‏بلغارستان‏"
+            },
+            {
+                "id": 51,
+                "latin_name": "Russia",
+                "farsi_name": "‏روسيه‏"
+            },
+            {
+                "id": 66,
+                "latin_name": "Serbia",
+                "farsi_name": "‏صربستان "
+            },
+            {
+                "id": 102,
+                "latin_name": "Morocco",
+                "farsi_name": "مراكش"
+            }
+        ]
+    },
+    {
+        "latin_description": "STUDENTS - WORLDWIDE Excluding USA\/ Canada and Japan",
+        "max_coverage": 50000,
+        "id": 23,
+        "max_coverage_text": "50000 € Subject to conditions",
+        "zone_description": "STUDENTS - WORLDWIDE Excluding USA\/ Canada and Japan",
+        "durations": [
+            {
+                "duration_end": 92,
+                "extra_description": "Single",
+                "id": 40
+            },
+            {
+                "duration_end": 180,
+                "extra_description": "Single",
+                "id": 20
+            },
+            {
+                "duration_end": 365,
+                "extra_description": "Single",
+                "id": 21
+            }
+        ],
+        "countries": []
+    }
+]

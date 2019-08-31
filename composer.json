@@ -1,0 +1,24 @@
+{
+  "name": "mhndev/asmari",
+  "type": "library",
+  "description": "library for asmari",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Majid Abdolhosseini",
+      "email": "majid8911303@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": { "mhndev\\asmari\\": "src/" }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "ext-soap": "*",
+    "ext-json": "*"
+  },
+  "suggest": {
+    "farhadi/intl-datetime": "allows more options for date conversion and formatting"
+  }
+
+}

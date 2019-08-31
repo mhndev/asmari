@@ -1,0 +1,904 @@
+[
+      {
+          "latin_description":"SCHENGEN ",
+          "max_coverage":30000,
+          "id":1,
+          "max_coverage_text":"30000 \u20ac Subject to conditions",
+          "zone_description":"SCHENGEN ",
+          "durations": [
+                {
+                  "duration_end":7,
+                  "extra_description":"Single",
+                  "id":1
+                },
+                {
+                  "duration_end":15,
+                  "extra_description":"Single",
+                  "id":2
+                },
+                {
+                  "duration_end":23,
+                  "extra_description":"Single",
+                  "id":3
+                },
+                {
+                  "duration_end":31,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":4
+                },
+                {
+                  "duration_end":45,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":5
+                },
+                {
+                  "duration_end":62,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":6
+                },
+                {
+                  "duration_end":92,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":7
+                },
+                {
+                  "duration_end":180,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":8
+                },
+                {
+                  "duration_end":365,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":9
+                }
+          ]
+      },
+      {
+          "latin_description":"SCHENGEN GOLD",
+          "max_coverage":50000,
+          "id":2,
+          "max_coverage_text":"50000  \u20ac Subject to conditions",
+          "zone_description":"SCHENGEN GOLD",
+          "durations":[
+                {
+                  "duration_end":7,
+                  "extra_description":"Single",
+                  "id":1
+                },
+                {
+                  "duration_end":15,
+                  "extra_description":"Single",
+                  "id":2
+                },
+                {
+                  "duration_end":23,
+                  "extra_description":"Single",
+                  "id":3
+                },
+                {
+                  "duration_end":31,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":4
+                },
+                {
+                  "duration_end":45,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":5
+                },
+                {
+                  "duration_end":62,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":6
+                },
+                {
+                  "duration_end":92,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":7
+                },
+                {
+                  "duration_end":180,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":8
+                },
+                {
+                  "duration_end":365,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":9
+                }
+          ]
+      },
+      {
+          "latin_description":"AL - HAJJ ",
+          "max_coverage":10000,
+          "id":3,
+          "max_coverage_text":"10000  \u20ac Subject to conditions",
+          "zone_description":"AL - HAJJ ",
+          "durations":[
+                {
+                  "duration_end":7,
+                  "extra_description":"Single",
+                  "id":1
+                },
+                {
+                  "duration_end":15,
+                  "extra_description":"Single",
+                  "id":2
+                },
+                {
+                  "duration_end":23,
+                  "extra_description":"Single",
+                  "id":3
+                },
+                {
+                  "duration_end":31,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":4
+                },
+                {
+                  "duration_end":45,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":5
+                },
+                {
+                  "duration_end":62,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":6
+                },
+                {
+                  "duration_end":92,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":7
+                },
+                {
+                  "duration_end":180,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":8
+                },
+                {
+                  "duration_end":365,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":9
+                }
+          ]
+      },
+      {
+          "latin_description":"Middle East - Africa - Turkey",
+          "max_coverage":10000,
+          "id":4,
+          "max_coverage_text":"10000  \u20ac Subject to conditions",
+          "zone_description":"Middle East - Africa - Turkey",
+          "durations":[
+                {
+                  "duration_end":7,
+                  "extra_description":"Single",
+                  "id":1
+                },
+                {
+                  "duration_end":15,
+                  "extra_description":"Single",
+                  "id":2
+                },
+                {
+                  "duration_end":23,
+                  "extra_description":"Single",
+                  "id":3
+                },
+                {
+                  "duration_end":31,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":4
+                },
+                {
+                  "duration_end":45,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":5
+                },
+                {
+                  "duration_end":62,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":6
+                },
+                {
+                  "duration_end":92,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":7
+                },
+                {
+                  "duration_end":180,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":8
+                },
+                {
+                  "duration_end":365,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":9
+                }
+          ]
+      },
+      {
+          "latin_description":"GCC  countries TRAVEL",
+          "max_coverage":10000,
+          "id":5,
+          "max_coverage_text":"10000 \u20ac Subject to conditions",
+          "zone_description":"GCC  countries TRAVEL",
+          "durations":[
+                {
+                  "duration_end":7,
+                  "extra_description":"Single",
+                  "id":1
+                },
+                {
+                  "duration_end":15,
+                  "extra_description":"Single",
+                  "id":2
+                },
+                {
+                  "duration_end":23,
+                  "extra_description":"Single",
+                  "id":3
+                },
+                {
+                  "duration_end":31,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":4
+                },
+                {
+                  "duration_end":45,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":5
+                },
+                {
+                  "duration_end":62,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":6
+                },
+                {
+                  "duration_end":92,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":7
+                },
+                {
+                  "duration_end":180,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":8
+                },
+                {
+                  "duration_end":365,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":9
+                }
+          ]
+      },
+      {
+          "latin_description":"WORLDWIDE",
+          "max_coverage":50000,
+          "id":6,
+          "max_coverage_text":"50000  \u20ac Subject to conditions",
+          "zone_description":"WORLDWIDE",
+          "durations": [
+                {
+                  "duration_end":7,
+                  "extra_description":"Single",
+                  "id":1
+                },
+                {
+                  "duration_end":15,
+                  "extra_description":"Single",
+                  "id":2
+                },
+                {
+                  "duration_end":23,
+                  "extra_description":"Single",
+                  "id":3
+                },
+                {
+                  "duration_end":31,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":4
+                },
+                {
+                  "duration_end":45,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":5
+                },
+                {
+                  "duration_end":62,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":6
+                },
+                {
+                  "duration_end":92,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":7
+                },
+                {
+                  "duration_end":180,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":8
+                },
+                {
+                  "duration_end":365,
+                  "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                  "id":9
+                }
+            ]
+      },
+      {
+          "latin_description":"WORLDWIDE-Excluding USA/Canada and Japan",
+          "max_coverage":50000,
+          "id":7,
+          "max_coverage_text":"50000  \u20ac Subject to conditions",
+          "zone_description":"WORLDWIDE-Excluding USA/Canada and Japan",
+          "durations":[
+              {
+                "duration_end":7,
+                "extra_description":"Single",
+                "id":1
+              },
+              {
+                "duration_end":15,
+                "extra_description":"Single",
+                "id":2
+              },
+              {
+                "duration_end":23,
+                "extra_description":"Single",
+                "id":3
+              },
+              {
+                "duration_end":31,
+                "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id":4
+              },
+              {
+                "duration_end":45,
+                "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id":5
+              },
+              {
+                "duration_end":62,
+                "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id":6
+              },
+              {
+                "duration_end":92,
+                "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id":7
+              },
+              {
+                "duration_end":180,
+                "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id":8
+              },
+              {
+                "duration_end":365,
+                "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+                "id":9
+              }
+          ]
+      },
+      {
+          "latin_description":"STUDENT - SCHENGEN",
+          "max_coverage":30000,
+          "id":9,
+          "max_coverage_text":"30000 \u20ac Subject to conditions",
+          "zone_description":"STUDENT - SCHENGEN",
+          "durations":[
+            {
+              "duration_end":92,
+              "extra_description":"Single",
+              "id":40
+            },
+            {
+              "duration_end":180,
+              "extra_description":"Single",
+              "id":20
+            },
+            {
+              "duration_end":365,
+              "extra_description":"Single",
+              "id":21
+            }
+          ]
+      },
+      {
+          "latin_description":"STUDENTS - WORDWIDE",
+          "max_coverage":50000,
+          "id":10,
+          "max_coverage_text":"50000 \u20ac Subject to conditions",
+          "zone_description":"STUDENTS - WORDWIDE",
+          "durations":[
+            {
+              "duration_end":92,
+              "extra_description":"Single",
+              "id":40
+            },
+            {
+              "duration_end":180,
+              "extra_description":"Single",
+              "id":20
+            },
+            {
+              "duration_end":365,
+              "extra_description":"Single",
+              "id":21
+            }
+          ]
+      },
+      {
+          "latin_description":"Turkey - Azerbaijan - Armenia - Dubai - Georgia - North Cyprus",
+          "max_coverage":10000,
+          "id":13,
+          "max_coverage_text":"10000 \u20ac Subject to conditions",
+          "zone_description":"Turkey - Azerbaijan - Armenia - Dubai - Georgia - North Cyprus",
+          "durations":[
+            {
+              "duration_end":7,
+              "extra_description":"Single",
+              "id":15
+            },
+            {
+              "duration_end":15,
+              "extra_description":"Single",
+              "id":16
+            }
+          ]
+      },
+      {
+          "latin_description":"WORLDWIDE - VIP",
+          "max_coverage":50000,
+          "id":15,
+          "max_coverage_text":"50000  \u20ac Subject to conditions",
+          "zone_description":"WORLDWIDE - VIP",
+          "durations":[
+            {
+              "duration_end":7,
+              "extra_description":"Single",
+              "id":1
+            },
+            {
+              "duration_end":15,
+              "extra_description":"Single",
+              "id":2
+            },
+            {
+              "duration_end":23,
+              "extra_description":"Single",
+              "id":3
+            },
+            {
+              "duration_end":31,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":4
+            },
+            {
+              "duration_end":45,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":5
+            },
+            {
+              "duration_end":62,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":6
+            },
+            {
+              "duration_end":92,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":7
+            },
+            {
+              "duration_end":180,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":8
+            },
+            {
+              "duration_end":365,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":9
+            }
+        ]
+      },
+      {
+          "latin_description":"WORLDWIDE-Excluding USA/Canada and Japan - VIP",
+          "max_coverage":50000,
+          "id":16,
+          "max_coverage_text":"50000  \u20ac Subject to conditions",
+          "zone_description":"WORLDWIDE-Excluding USA/Canada and Japan - VIP",
+          "durations":[
+            {
+              "duration_end":7,
+              "extra_description":"Single",
+              "id":1
+            },
+            {
+              "duration_end":15,
+              "extra_description":"Single",
+              "id":2
+            },
+            {
+              "duration_end":23,
+              "extra_description":"Single",
+              "id":3
+            },
+            {
+              "duration_end":31,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":4
+            },
+            {
+              "duration_end":45,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":5
+            },
+            {
+              "duration_end":62,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":6
+            },
+            {
+              "duration_end":92,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":7
+            },
+            {
+              "duration_end":180,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":8
+            },
+            {
+              "duration_end":365,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":9
+            }
+          ]
+      },
+      {
+          "latin_description":"SCHENGEN - VIP",
+          "max_coverage":30000,
+          "id":17,
+          "max_coverage_text":"30000 \u20ac Subject to conditions",
+          "zone_description":"SCHENGEN - VIP",
+          "durations":[
+            {
+              "duration_end":7,
+              "extra_description":"Single",
+              "id":1
+            },
+            {
+              "duration_end":15,
+              "extra_description":"Single",
+              "id":2
+            },
+            {
+              "duration_end":23,
+              "extra_description":"Single",
+              "id":3
+            },
+            {
+              "duration_end":31,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":4
+            },
+            {
+              "duration_end":45,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":5
+            },
+            {
+              "duration_end":62,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":6
+            },
+            {
+              "duration_end":92,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":7
+            },
+            {
+              "duration_end":180,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":8
+            },
+            {
+              "duration_end":365,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":9
+            }
+          ]
+      },
+      {
+          "latin_description":"SCHENGEN GOLD - VIP",
+          "max_coverage":50000,
+          "id":18,
+          "max_coverage_text":"50000  \u20ac Subject to conditions",
+          "zone_description":"SCHENGEN GOLD - VIP",
+          "durations":[
+            {
+              "duration_end":7,
+              "extra_description":"Single",
+              "id":1
+            },
+            {
+              "duration_end":15,
+              "extra_description":"Single",
+              "id":2
+            },
+            {
+              "duration_end":23,
+              "extra_description":"Single",
+              "id":3
+            },
+            {
+              "duration_end":31,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":4
+            },
+            {
+              "duration_end":45,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":5
+            },
+            {
+              "duration_end":62,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":6
+            },
+            {
+              "duration_end":92,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":7
+            },
+            {
+              "duration_end":180,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":8
+            },
+            {
+              "duration_end":365,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":9
+            }
+          ]
+      },
+      {
+          "latin_description":"Middle East - Africa - Turkey - VIP",
+          "max_coverage":10000,
+          "id":19,
+          "max_coverage_text":"10000  \u20ac Subject to conditions",
+          "zone_description":"Middle East - Africa - Turkey - VIP",
+          "durations":[
+            {
+              "duration_end":7,
+              "extra_description":"Single",
+              "id":1
+            },
+            {
+              "duration_end":15,
+              "extra_description":"Single",
+              "id":2
+            },
+            {
+              "duration_end":23,
+              "extra_description":"Single",
+              "id":3
+            },
+            {
+              "duration_end":31,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":4
+            },
+            {
+              "duration_end":45,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":5
+            },
+            {
+              "duration_end":62,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":6
+            },
+            {
+              "duration_end":92,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":7
+            },
+            {
+              "duration_end":180,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":8
+            },
+            {
+              "duration_end":365,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":9
+            }
+          ]
+      },
+      {
+          "latin_description":"GCC  countries TRAVEL - VIP",
+          "max_coverage":10000,
+          "id":20,
+          "max_coverage_text":"10000  \u20ac Subject to conditions",
+          "zone_description":"GCC  countries TRAVEL - VIP",
+          "durations":[
+            {
+              "duration_end":7,
+              "extra_description":"Single",
+              "id":1
+            },
+            {
+              "duration_end":15,
+              "extra_description":"Single",
+              "id":2
+            },
+            {
+              "duration_end":23,
+              "extra_description":"Single",
+              "id":3
+            },
+            {
+              "duration_end":31,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":4
+            },
+            {
+              "duration_end":45,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":5
+            },
+            {
+              "duration_end":62,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":6
+            },
+            {
+              "duration_end":92,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":7
+            },
+            {
+              "duration_end":180,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":8
+            },
+            {
+              "duration_end":365,
+              "extra_description":"Multiple entry is covered (Each travel is limited up to 92 consecutive days)",
+              "id":9
+            }
+          ]
+      },
+      {
+          "latin_description":"Turkey,Emirates,Thailand,Malaysia,Singapore,Indonesia,China,Vietnam,Sri Lanka,Maldives,Azerbaijan,South Africa,Cyprus,Georgia,Armenia,India",
+          "max_coverage":10000,
+          "id":21,
+          "max_coverage_text":"10000  \u20ac Subject to conditions",
+          "zone_description":"Turkey,Emirates,Thailand,Malaysia,Singapore,Indonesia,China,Vietnam,Sri Lanka,Maldives,Azerbaijan,South Africa,Cyprus,Georgia,Armenia,India",
+          "durations":[
+            {
+              "duration_end":7,
+              "extra_description":"Single",
+              "id":22
+            },
+            {
+              "duration_end":15,
+              "extra_description":"Single",
+              "id":23
+            },
+            {
+              "duration_end":23,
+              "extra_description":"Single",
+              "id":24
+            },
+            {
+              "duration_end":31,
+              "extra_description":"Single",
+              "id":25
+            },
+            {
+              "duration_end":45,
+              "extra_description":"Single",
+              "id":26
+            },
+            {
+              "duration_end":62,
+              "extra_description":"Single",
+              "id":27
+            },
+            {
+              "duration_end":92,
+              "extra_description":"Single",
+              "id":28
+            },
+            {
+              "duration_end":180,
+              "extra_description":"Single",
+              "id":29
+            },
+            {
+              "duration_end":365,
+              "extra_description":"Single",
+              "id":30
+            }
+          ]
+      },
+      {
+          "latin_description":"Russia,Serbia,Morocco,Bulgaria,Brazil",
+          "max_coverage":10000,
+          "id":22,
+          "max_coverage_text":"10000  \u20ac Subject to conditions",
+          "zone_description":"Russia,Serbia,Morocco,Bulgaria,Brazil",
+          "durations":[
+            {
+              "duration_end":15,
+              "extra_description":"Single",
+              "id":32
+            },
+            {
+              "duration_end":7,
+              "extra_description":"Single",
+              "id":31
+            },
+            {
+              "duration_end":23,
+              "extra_description":"Single",
+              "id":33
+            },
+            {
+              "duration_end":31,
+              "extra_description":"Single",
+              "id":34
+            },
+            {
+              "duration_end":45,
+              "extra_description":"Single",
+              "id":35
+            },
+            {
+              "duration_end":62,
+              "extra_description":"Single",
+              "id":36
+            },
+            {
+              "duration_end":92,
+              "extra_description":"Single",
+              "id":37
+            },
+            {
+              "duration_end":180,
+              "extra_description":"Single",
+              "id":38
+            },
+            {
+              "duration_end":365,
+              "extra_description":"Single",
+              "id":39
+            }
+          ]
+      },
+      {
+          "latin_description":"STUDENTS - WORLDWIDE Excluding USA/ Canada and Japan",
+          "max_coverage":50000,
+          "id":23,
+          "max_coverage_text":"50000 \u20ac Subject to conditions",
+          "zone_description":"STUDENTS - WORLDWIDE Excluding USA/ Canada and Japan",
+          "durations":[
+            {
+              "duration_end":92,
+              "extra_description":"Single",
+              "id":40
+            },
+            {
+              "duration_end":180,
+              "extra_description":"Single",
+              "id":20
+            },
+            {
+              "duration_end":365,
+              "extra_description":"Single",
+              "id":21
+            }
+          ]
+      }
+
+]
