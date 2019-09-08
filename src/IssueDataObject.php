@@ -184,7 +184,7 @@ class IssueDataObject
 
     /**
      * @param DateTime $birth_date
-     * @return GetPriceDataObject
+     * @return IssueDataObject
      * @throws Exception
      */
     public function setBirthDate(DateTime $birth_date)
@@ -226,7 +226,7 @@ class IssueDataObject
 
     /**
      * @param string $birth_date_miladi_string
-     * @return GetPriceDataObject
+     * @return IssueDataObject
      * @throws Exception
      * @example 2012-02-5
      *

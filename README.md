@@ -41,8 +41,7 @@ die();
 
 
 
-#### 4) method issue
-
+#### 3) method issue
 
 $issue_data_object = (new \mhndev\asmari\IssueDataObject())
     ->setBirthDate(DateTime::createFromFormat('Y-m-d', '2011-05-01'))

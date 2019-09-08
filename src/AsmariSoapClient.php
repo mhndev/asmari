@@ -1,6 +1,7 @@
 <?php
 namespace mhndev\asmari;
 
+use mhndev\asmari\Exception\APIResponseException;
 use SoapClient;
 use SoapFault;
 
@@ -57,12 +58,16 @@ class AsmariSoapClient implements iAsmariClient
 
         $array_result = json_decode($result, true)[0];
 
+        if($array_result['response_code'] != 0 ) {
+            throw new APIResponseException(json_encode(['api_response' => $array_result, 'inputs' => $params]));
+        }
+
         return ['premium' => $array_result['premium'], 'tax' => $array_result['tax']];
     }
 
     /**
      * @param IssueDataObject $issue_data_object
-     * @return mixed
+     * @return array
      */
     function issue(IssueDataObject $issue_data_object)
     {
@@ -93,6 +98,25 @@ class AsmariSoapClient implements iAsmariClient
 
         $array_result = json_decode($result, true)[0];
 
+
+        if(
+            !array_key_exists('premium', $array_result) &&
+            !array_key_exists('tax', $array_result) &&
+            !array_key_exists('idinsu', $array_result)
+        ) {
+            throw new APIResponseException($result);
+        }
+
+        /*
+         * @ example error
+         *
+         * array:2 [
+         *     "response_code" => 2
+         *     "message" => "مشخصات وارد شده فاقد نرخ در سیستم می باشد . با واحد فنی تماس بگیرید."
+         *  ]
+         *
+         */
+
         return [
             'premium' => $array_result['premium'],
             'tax' => $array_result['tax'],
@@ -119,5 +143,6 @@ class AsmariSoapClient implements iAsmariClient
 
         return json_decode($result, true)[0]['zone'];
     }
+
 
 }
