@@ -12,10 +12,6 @@ use SoapFault;
 class AsmariSoapClient implements iAsmariClient
 {
 
-    /**
-     * @var string
-     */
-    private $wsdl_url;
 
     /**
      * @var string
@@ -32,17 +28,28 @@ class AsmariSoapClient implements iAsmariClient
      * AsmariSoapClient constructor.
      * @param string $wsdl_url
      * @param string $session_id
-     * @throws SoapFault
+     * @throws APIResponseException
      */
     function __construct(string $wsdl_url, string $session_id)
     {
         $this->session_id = $session_id;
-        $this->soap_client = new SoapClient($wsdl_url, ['exception' => true, 'trace' => 1]);
+
+        try{
+            $this->soap_client = new SoapClient(
+                $wsdl_url,
+                ['exception' => true, 'trace' => 1]
+            );
+        }
+        catch (\Exception $e) {
+            throw new APIResponseException($e->getMessage());
+        }
+
     }
 
     /**
      * @param GetPriceDataObject $get_price_data_object
      * @return mixed
+     * @throws APIResponseException
      */
     function getPrice(GetPriceDataObject $get_price_data_object)
     {
@@ -68,6 +75,7 @@ class AsmariSoapClient implements iAsmariClient
     /**
      * @param IssueDataObject $issue_data_object
      * @return array
+     * @throws APIResponseException
      */
     function issue(IssueDataObject $issue_data_object)
     {
