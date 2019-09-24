@@ -1,6 +1,8 @@
 <?php
 namespace mhndev\asmari;
 
+use Illuminate\Support\Str;
+use mhndev\asmari\Exception\ApiResponseConnectException;
 use mhndev\asmari\Exception\APIResponseException;
 use SoapClient;
 use SoapFault;
@@ -19,9 +21,14 @@ class AsmariSoapClient implements iAsmariClient
     private $session_id;
 
     /**
+     * @var string
+     */
+    private $wsdl_url;
+
+    /**
      * @var SoapClient
      */
-    private $soap_client;
+    private $soap_client = null;
 
 
     /**
@@ -33,15 +40,40 @@ class AsmariSoapClient implements iAsmariClient
     function __construct(string $wsdl_url, string $session_id)
     {
         $this->session_id = $session_id;
+        $this->wsdl_url = $wsdl_url;
+    }
+
+
+    /**
+     * @return SoapClient
+     * @throws APIResponseException
+     * @throws ApiResponseConnectException
+     */
+    private function getSoapClient()
+    {
+        if(! is_null($this->soap_client)) {
+            return $this->soap_client;
+        }
 
         try{
             $this->soap_client = new SoapClient(
-                $wsdl_url,
+                $this->wsdl_url,
                 ['exception' => true, 'trace' => 1]
             );
         }
+
         catch (\Exception $e) {
-            throw new APIResponseException($e->getMessage());
+
+            if (
+                get_class($e) == SoapFault::class &&
+                Str::contains($e->getMessage(), "SOAP-ERROR: Parsing WSDL: Couldn't load from")
+            ) {
+                throw new ApiResponseConnectException;
+            }
+
+            else {
+                throw new APIResponseException($e->getMessage());
+            }
         }
 
     }
@@ -61,7 +93,7 @@ class AsmariSoapClient implements iAsmariClient
 
         $params = compact('session_id', 'birth_date', 'zone_id', 'duration_id', 'discount_id');
 
-        $result = $this->soap_client->get_price($params)->get_priceResult;
+        $result = $this->getSoapClient()->get_price($params)->get_priceResult;
 
         $array_result = json_decode($result, true)[0];
 
@@ -102,7 +134,7 @@ class AsmariSoapClient implements iAsmariClient
             'national_code'
         );
 
-        $result = $this->soap_client->issue($params)->issueResult;
+        $result = $this->getSoapClient()->issue($params)->issueResult;
 
         $array_result = json_decode($result, true)[0];
 
@@ -147,7 +179,7 @@ class AsmariSoapClient implements iAsmariClient
             'country_id' => $country_id
         ];
 
-        $result = $this->soap_client->get_zone_by_country($params)->get_zone_by_countryResult;
+        $result = $this->getSoapClient()->get_zone_by_country($params)->get_zone_by_countryResult;
 
         return json_decode($result, true)[0]['zone'];
     }
