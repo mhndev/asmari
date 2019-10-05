@@ -1,7 +1,6 @@
 <?php
 namespace mhndev\asmari;
 
-use Illuminate\Support\Str;
 use mhndev\asmari\Exception\ApiResponseConnectException;
 use mhndev\asmari\Exception\APIResponseException;
 use SoapClient;
@@ -60,6 +59,8 @@ class AsmariSoapClient implements iAsmariClient
                 $this->wsdl_url,
                 ['exception' => true, 'trace' => 1]
             );
+
+            return $this->soap_client;
         }
 
         catch (\Exception $e) {
