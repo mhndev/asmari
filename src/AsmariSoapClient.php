@@ -94,15 +94,27 @@ class AsmariSoapClient implements iAsmariClient
 
         $params = compact('session_id', 'birth_date', 'zone_id', 'duration_id', 'discount_id');
 
-        $result = $this->getSoapClient()->get_price($params)->get_priceResult;
+        try{
+            $result = $this->getSoapClient()->get_price($params)->get_priceResult;
+            $array_result = json_decode($result, true)[0];
 
-        $array_result = json_decode($result, true)[0];
+            if($array_result['response_code'] != 0 ) {
+                throw new APIResponseException(json_encode(['api_response' => $array_result, 'inputs' => $params]));
+            }
 
-        if($array_result['response_code'] != 0 ) {
-            throw new APIResponseException(json_encode(['api_response' => $array_result, 'inputs' => $params]));
+            return ['premium' => $array_result['premium'], 'tax' => $array_result['tax']];
+        }
+        catch (\Exception $e) {
+
+            if(get_class($e) != ApiResponseConnectException::class) {
+                throw new APIResponseException($e->getMessage());
+            }
+            else {
+                throw $e;
+            }
         }
 
-        return ['premium' => $array_result['premium'], 'tax' => $array_result['tax']];
+
     }
 
     /**
