@@ -13,7 +13,6 @@ use SoapFault;
 class AsmariSoapClient implements iAsmariClient
 {
 
-
     /**
      * @var string
      */
@@ -34,7 +33,6 @@ class AsmariSoapClient implements iAsmariClient
      * AsmariSoapClient constructor.
      * @param string $wsdl_url
      * @param string $session_id
-     * @throws APIResponseException
      */
     function __construct(string $wsdl_url, string $session_id)
     {
@@ -67,10 +65,11 @@ class AsmariSoapClient implements iAsmariClient
 
             if (
                 get_class($e) == SoapFault::class &&
-                Str::contains($e->getMessage(), "SOAP-ERROR: Parsing WSDL: Couldn't load from")
+                strpos($e->getMessage(), "SOAP-ERROR: Parsing WSDL: Couldn't load from") !== false
             ) {
                 throw new ApiResponseConnectException;
             }
+
 
             else {
                 throw new APIResponseException($e->getMessage());
@@ -182,6 +181,8 @@ class AsmariSoapClient implements iAsmariClient
     /**
      * @param int $country_id
      * @return int
+     * @throws APIResponseException
+     * @throws ApiResponseConnectException
      */
     function getZoneByCountry(int $country_id)
     {
