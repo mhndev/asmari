@@ -67,12 +67,16 @@ class AsmariSoapClient implements iAsmariClient
                 get_class($e) == SoapFault::class &&
                 strpos($e->getMessage(), "SOAP-ERROR: Parsing WSDL: Couldn't load from") !== false
             ) {
-                throw new ApiResponseConnectException;
+                throw new ApiResponseConnectException(
+                    sprintf("Exception Class : %s , Exception Message is : %s", get_class($e), $e->getMessage())
+                );
             }
 
 
             else {
-                throw new APIResponseException($e->getMessage());
+                throw new APIResponseException(
+                    sprintf("Exception Class : %s , Exception Message is : %s", get_class($e), $e->getMessage())
+                );
             }
         }
 
@@ -106,10 +110,17 @@ class AsmariSoapClient implements iAsmariClient
         catch (\Exception $e) {
 
             if(get_class($e) != ApiResponseConnectException::class) {
-                throw new APIResponseException($e->getMessage());
+                throw new APIResponseException(
+                    sprintf("Exception Class : %s , Exception Message is : %s", get_class($e), $e->getMessage())
+                );
             }
             else {
-                throw $e;
+                $exception_class = get_class($e);
+
+                throw new $exception_class(
+                    sprintf("Exception Class : %s , Exception Message is : %s", get_class($e), $e->getMessage())
+                );
+
             }
         }
 
